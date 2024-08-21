@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: rgb(0, 187, 255);
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+        background-color: orange;
+        font-weight: 700;
+        font-size: 24px;
+        text-transform: uppercase;
+        padding: 10px 20px;
+        border: 2px solid black;
+        border-radius: 40px;
+        cursor: pointer;
+        gap: 30px;
+        
+    }
+
+.gallery-list{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item{
+    width: 350px;
+}
+img{
+    width: 100%;
+    
+}
+.gallery-img:hover{
+    -webkit-box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 0px 5px rgba(0,0,0,0); 
+box-shadow: 5px 5px 15px 5px #FF8080, -9px 5px 15px 5px #FFE488, -7px -5px 15px 5px #8CFF85, 12px -5px 15px 5px #80C7FF, 12px 10px 15px 7px #E488FF, -10px 10px 15px 7px #FF616B, -10px -7px 27px 1px #8E5CFF, 5px 5px 0px 5px rgba(0,0,0,0);
+}
+.navigation-link:hover{
+    -webkit-box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 0px 5px rgba(0,0,0,0); 
+box-shadow: 0px 0px 0px 8px #000000, 0px 0px 0px 16px #4B4C4B, 0px 0px 0px 24px #828482, 0px 0px 0px 31px #B2B5B2, 0px 0px 0px 39px #DADDDA, 5px 5px 0px 5px rgba(0,0,0,0);
+}
+.gallery{
+    background: rgb(131,58,180);
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(29,82,253,1) 56%, rgba(252,176,69,1) 100%);
+}
